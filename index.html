@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ISE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    <body>
+
+        <a href="index.html"><h1>Image search engine</h1></a>
+        
+        <form action="", id ="search-form">
+            <i class=" uil uil-search"></i>
+            <input type="text" id="search-box" placeholder="Search Images">
+            <div class="lisence">
+                <div class="select">
+                    <select name="lisence" id="lisence">
+                        <option value="default" id="selected">Lisence</option>
+                        <option value="RF">RF</option>
+                        <option value="RM">RM</option>
+                    </select>
+                </div>
+            </div>
+            <input type="text" id="samePseudoCount" placeholder="Same Pseudo Count" value=""><br><br>
+            <button>submit</button>
+        </form>
+        
+        
+        <div id="search-result"></div>
+        <button id="show_more">showmore...</button>
+
+                
+                    
+            
+        <script src="script.js"></script>
+    </body>
+</html>  
